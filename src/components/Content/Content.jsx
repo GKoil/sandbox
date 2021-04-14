@@ -43,7 +43,7 @@ function Content() {
           </Tabs>
         </AppBar>
         <TabPanel value={value} index={0}>
-          Item One
+          <MainTable />
         </TabPanel>
         <TabPanel value={value} index={1}>
           Item Two
@@ -52,8 +52,6 @@ function Content() {
           Item Three
         </TabPanel>
       </div>
-
-      <MainTable />
     </>
   );
 }
